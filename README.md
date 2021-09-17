@@ -1,8 +1,6 @@
 # Huawei Cloud OBS for Laravel
 
-[Huawei Cloud OBS](https://support.huaweicloud.com/devg-obs_php_sdk_doc_zh/zh-cn_topic_0132036136.html) storage for Laravel based on [dscmall/laravel-filesystem-obs](https://github.com/dscmall/laravel-filesystem-obs).
-
-[大商创技术团队](http://www.dscmall.cn)
+[Huawei Cloud OBS](https://support.huaweicloud.com/devg-obs_php_sdk_doc_zh/zh-cn_topic_0132036136.html) storage for Laravel based on [artwl/laravel-filesystem-obs](https://github.com/artwl/laravel-filesystem-obs).
 
 # Requirement
 
@@ -11,7 +9,7 @@
 # Installation
 
 ```shell
-$ composer require "dscmall/laravel-filesystem-obs" -vvv
+$ composer require "artwl/laravel-filesystem-obs" -vvv
 ```
 
 # Configuration
@@ -37,8 +35,8 @@ $ composer require "dscmall/laravel-filesystem-obs" -vvv
             'key' => env('OBS_ACCESS_ID'), // <Your Huawei OBS AccessKeyId>
             'secret' => env('OBS_ACCESS_KEY'), // <Your Huawei OBS AccessKeySecret>
             'bucket' => env('OBS_BUCKET'), // <OBS bucket name>
-            'endpoint' => env('OBS_ENDPOINT'), // <the endpoint of OBS, E.g: (https:// or http://).obs.cn-east-2.myhuaweicloud.com | custom domain, E.g:img.abc.com> OBS 外网节点或自定义外部域名
-            'cdn_domain' => env('OBS_CDN_DOMAIN'), //<CDN domain, cdn域名> 如果isCName为true, getUrl会判断cdnDomain是否设定来决定返回的url，如果cdnDomain未设置，则使用endpoint来生成url，否则使用cdn
+            'endpoint' => env('OBS_ENDPOINT'), // <the endpoint of OBS, E.g: (https:// or http://).obs.cn-east-2.myhuaweicloud.com | custom domain, E.g:img.abc.com> OBS 澶栫綉鑺傜偣鎴栬嚜瀹氫箟澶栭儴鍩熷悕
+            'cdn_domain' => env('OBS_CDN_DOMAIN'), //<CDN domain, cdn鍩熷悕> 濡傛灉isCName涓簍rue, getUrl浼氬垽鏂璫dnDomain鏄惁璁惧畾鏉ュ喅瀹氳繑鍥炵殑url锛屽鏋渃dnDomain鏈缃紝鍒欎娇鐢╡ndpoint鏉ョ敓鎴恥rl锛屽惁鍒欎娇鐢╟dn
             'ssl_verify' => env('OBS_SSL_VERIFY'), // <true|false> true to use 'https://' and false to use 'http://'. default is false,
             'debug' => env('APP_DEBUG'), // <true|false>
         ],
