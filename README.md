@@ -9,7 +9,7 @@
 # Installation
 
 ```shell
-$ composer require "artwl/laravel-filesystem-obs" -vvv
+$ composer require "artwl/laravel-filesystem-obs:v3.3.0"
 ```
 
 # Configuration
