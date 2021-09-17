@@ -399,6 +399,14 @@ class ObsAdapter extends AbstractAdapter
             $result['size'] = $object['Size'];
             $result['bytes'] = $object['Size'];
         }
+        
+        if (isset($object['stream'])) {
+            $result['stream'] = $object['stream'];
+        }
+
+        if (isset($object['contents'])) {
+            $result['contents'] = $object['contents'];
+        }
 
         $type = (substr($result['path'], -1) === '/' ? 'dir' : 'file');
 
