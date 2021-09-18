@@ -1,15 +1,15 @@
 # Huawei Cloud OBS for Laravel
 
-[Huawei Cloud OBS](https://support.huaweicloud.com/devg-obs_php_sdk_doc_zh/zh-cn_topic_0132036136.html) storage for Laravel based on [artwl/laravel-filesystem-obs](https://github.com/artwl/laravel-filesystem-obs).
+Huawei Cloud OBS storage for Laravel based on [artwl/laravel-filesystem-obs](https://github.com/artwl/laravel-filesystem-obs).
 
 # Requirement
 
-- PHP >= 7.1.3
+- PHP >= 7.1.3 || PHP >= 8.0
 
 # Installation
 
 ```shell
-$ composer require "artwl/laravel-filesystem-obs:v3.3.0"
+$ composer require "artwl/laravel-filesystem-obs:v3.4.0"
 ```
 
 # Configuration
