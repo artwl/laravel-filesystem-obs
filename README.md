@@ -12,6 +12,8 @@ Huawei Cloud OBS storage for Laravel based on [artwl/laravel-filesystem-obs](htt
 $ composer require "artwl/laravel-filesystem-obs:v3.4.0"
 ```
 
+注：需要composer为2.0及以上版本
+
 # Configuration
 
 1. After installing the library, register the `Obs\ObsServiceProvider` in your `config/app.php` file:
