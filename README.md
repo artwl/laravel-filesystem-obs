@@ -1,4 +1,4 @@
-![packagist](https://badgen.net/packagist/v/artwl/laravel-filesystem-obs?icon=github) ![](https://badgen.net/packagist/php/artwl/laravel-filesystem-obs) ![](https://badgen.net/packagist/name/artwl/laravel-filesystem-obs?icon=github) ![](https://badgen.net/packagist/license/artwl/laravel-filesystem-obs) 
+[![packagist](https://badgen.net/packagist/v/artwl/laravel-filesystem-obs?icon=github)](https://packagist.org/packages/artwl/laravel-filesystem-obs) [![](https://badgen.net/packagist/php/artwl/laravel-filesystem-obs)](https://packagist.org/packages/artwl/laravel-filesystem-obs) [![](https://badgen.net/packagist/name/artwl/laravel-filesystem-obs?icon=github)](https://packagist.org/packages/artwl/laravel-filesystem-obs) [![](https://badgen.net/packagist/license/artwl/laravel-filesystem-obs)](https://packagist.org/packages/artwl/laravel-filesystem-obs) 
 
 # Huawei Cloud OBS for Laravel
 
